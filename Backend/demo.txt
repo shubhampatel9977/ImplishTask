@@ -1,0 +1,20 @@
+
+CREATE TABLE `users` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(250) DEFAULT NULL,
+  `email` varchar(250) DEFAULT NULL,
+  `password` varchar(250) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE company (
+    code int NOT NULL AUTO_INCREMENT,
+    name varchar(250) NOT NULL,
+    machines int NOT NULL,
+    area varchar(250) NOT NULL,
+    link varchar(250) NOT NULL,
+    frequency varchar(250) NOT NULL,
+    c_number varchar(250) NOT NULL,
+    remark varchar(250) NOT NULL,
+    PRIMARY KEY (code)
+);
